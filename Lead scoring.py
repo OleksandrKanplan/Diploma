@@ -38,7 +38,7 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
         print(os.path.join(dirname, filename))
 
 
-lead = pd.read_csv("/kaggle/input/lead-scoring-dataset/Lead Scoring.csv")
+lead = pd.read_csv("file_path")
 lead.head()
 
 #розмір бази даних
